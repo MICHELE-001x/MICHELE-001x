@@ -1,0 +1,194 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local clickersimulatorscript = Instance.new("TextButton")
+local sonicspeedsimulatorscript = Instance.new("TextButton")
+local miningsimulator2script = Instance.new("TextButton")
+local bloxfruitscript = Instance.new("TextButton")
+local fleethefacilityscript = Instance.new("TextButton")
+local bigpaintballscript = Instance.new("TextButton")
+local ninjalegendscript = Instance.new("TextButton")
+local dahoodscript = Instance.new("TextButton")
+local mm2script = Instance.new("TextButton")
+local psxscript = Instance.new("TextButton")
+local autscript = Instance.new("TextButton")
+local katscript = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.237971202, 0, 0.333333313, 0)
+main.Size = UDim2.new(0, 484, 0, 261)
+main.Active = true 
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label.Size = UDim2.new(0, 484, 0, 50)
+label.Font = Enum.Font.SourceSans
+label.Text = "Mikhy001 GUI v1 | Made by MICHELE_001x"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+clickersimulatorscript.Name = "clickersimulatorscript"
+clickersimulatorscript.Parent = main
+clickersimulatorscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+clickersimulatorscript.Position = UDim2.new(0.0123966942, 0, 0.226819977, 0)
+clickersimulatorscript.Size = UDim2.new(0, 168, 0, 38)
+clickersimulatorscript.Font = Enum.Font.Fantasy
+clickersimulatorscript.Text = "Clicker Simulator! Script"
+clickersimulatorscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+clickersimulatorscript.TextSize = 14.000
+clickersimulatorscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
+end)
+
+sonicspeedsimulatorscript.Name = "sonicspeedsimulatorscript"
+sonicspeedsimulatorscript.Parent = main
+sonicspeedsimulatorscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+sonicspeedsimulatorscript.Position = UDim2.new(0.386363626, 0, 0.22605364, 0)
+sonicspeedsimulatorscript.Size = UDim2.new(0, 168, 0, 38)
+sonicspeedsimulatorscript.Font = Enum.Font.Fantasy
+sonicspeedsimulatorscript.Text = "Sonic Speed Simulator (Key)"
+sonicspeedsimulatorscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+sonicspeedsimulatorscript.TextSize = 14.000
+sonicspeedsimulatorscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+miningsimulator2script.Name = "miningsimulator2script"
+miningsimulator2script.Parent = main
+miningsimulator2script.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+miningsimulator2script.Position = UDim2.new(0.0123966932, 0, 0.425287366, 0)
+miningsimulator2script.Size = UDim2.new(0, 168, 0, 38)
+miningsimulator2script.Font = Enum.Font.Fantasy
+miningsimulator2script.Text = "Mining Simulator 2 Script"
+miningsimulator2script.TextColor3 = Color3.fromRGB(0, 0, 0)
+miningsimulator2script.TextSize = 14.000
+miningsimulator2script.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
+end)
+
+bloxfruitscript.Name = "bloxfruitscript"
+bloxfruitscript.Parent = main
+bloxfruitscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+bloxfruitscript.Position = UDim2.new(0.0123966932, 0, 0.613026857, 0)
+bloxfruitscript.Size = UDim2.new(0, 168, 0, 38)
+bloxfruitscript.Font = Enum.Font.Fantasy
+bloxfruitscript.Text = "Blox Fruit/King Legacy Script"
+bloxfruitscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruitscript.TextSize = 14.000
+bloxfruitscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+
+fleethefacilityscript.Name = "fleethefacilityscript"
+fleethefacilityscript.Parent = main
+fleethefacilityscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+fleethefacilityscript.Position = UDim2.new(0.0123966932, 0, 0.816091955, 0)
+fleethefacilityscript.Size = UDim2.new(0, 168, 0, 38)
+fleethefacilityscript.Font = Enum.Font.Fantasy
+fleethefacilityscript.Text = "Flee The Facility Script"
+fleethefacilityscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+fleethefacilityscript.TextSize = 14.000
+fleethefacilityscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
+end)
+
+bigpaintballscript.Name = "bigpaintballscript"
+bigpaintballscript.Parent = main
+bigpaintballscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+bigpaintballscript.Position = UDim2.new(0.386363626, 0, 0.425287366, 0)
+bigpaintballscript.Size = UDim2.new(0, 168, 0, 38)
+bigpaintballscript.Font = Enum.Font.Fantasy
+bigpaintballscript.Text = "BIG Paintball Script"
+bigpaintballscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+bigpaintballscript.TextSize = 14.000
+bigpaintballscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+ninjalegendscript.Name = "ninjalegendscript"
+ninjalegendscript.Parent = main
+ninjalegendscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+ninjalegendscript.Position = UDim2.new(0.386363626, 0, 0.613026857, 0)
+ninjalegendscript.Size = UDim2.new(0, 168, 0, 38)
+ninjalegendscript.Font = Enum.Font.Fantasy
+ninjalegendscript.Text = "Ninja Legend Script"
+ninjalegendscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+ninjalegendscript.TextSize = 14.000
+ninjalegendscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HydraVirgo/ninjalegendsfreegui/main/obfusc", true))()
+end)
+
+dahoodscript.Name = "dahoodscript"
+dahoodscript.Parent = main
+dahoodscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+dahoodscript.Position = UDim2.new(0.386363626, 0, 0.816091955, 0)
+dahoodscript.Size = UDim2.new(0, 168, 0, 38)
+dahoodscript.Font = Enum.Font.Fantasy
+dahoodscript.Text = "Da Hood Script"
+dahoodscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+dahoodscript.TextSize = 14.000
+dahoodscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Pvpahh/enclosed/main/enclosed'))()
+end)
+
+mm2script.Name = "mm2script"
+mm2script.Parent = main
+mm2script.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+mm2script.Position = UDim2.new(0.760330558, 0, 0.425287366, 0)
+mm2script.Size = UDim2.new(0, 108, 0, 38)
+mm2script.Font = Enum.Font.Fantasy
+mm2script.Text = "MM2 Script"
+mm2script.TextColor3 = Color3.fromRGB(0, 0, 0)
+mm2script.TextSize = 14.000
+mm2script.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
+end)
+
+psxscript.Name = "psxscript"
+psxscript.Parent = main
+psxscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+psxscript.Position = UDim2.new(0.760330558, 0, 0.613026857, 0)
+psxscript.Size = UDim2.new(0, 108, 0, 38)
+psxscript.Font = Enum.Font.Fantasy
+psxscript.Text = "PSX Script"
+psxscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+psxscript.TextSize = 14.000
+psxscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/sinnx32/prx/main/Petsim")()
+end)
+
+autscript.Name = "autscript"
+autscript.Parent = main
+autscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+autscript.Position = UDim2.new(0.760330558, 0, 0.816092014, 0)
+autscript.Size = UDim2.new(0, 108, 0, 38)
+autscript.Font = Enum.Font.Fantasy
+autscript.Text = "AUT Script"
+autscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+autscript.TextSize = 14.000
+autscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/aut.lua"))()
+end)
+
+katscript.Name = "katscript"
+katscript.Parent = main
+katscript.BackgroundColor3 = Color3.fromRGB(85, 0, 0)
+katscript.Position = UDim2.new(0.760330558, 0, 0.22605364, 0)
+katscript.Size = UDim2.new(0, 108, 0, 38)
+katscript.Font = Enum.Font.Fantasy
+katscript.Text = "K.A.T Script"
+katscript.TextColor3 = Color3.fromRGB(0, 0, 0)
+katscript.TextSize = 14.000
+katscript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
